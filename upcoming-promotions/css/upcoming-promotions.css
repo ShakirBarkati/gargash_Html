@@ -1,0 +1,138 @@
+
+
+/* ======= Mobile Responsive ======= */
+@media screen and (max-width: 768px) {
+  .up-pro-hero-heading {
+    font-size: 32px; /* Adjusted for mobile */
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .up-pro-hero-content {
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .up-pro-text-section p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .up-pro-text-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .up-pro-hero::before,
+  .up-pro-hero::after {
+    display: none; /* Removed tree images on mobile */
+  }
+
+  .up-pro-hero-bottom-img-section {
+    display: none;
+  }
+  .up-pro-text-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .up-pro-text-section p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 140%;
+  }
+
+  .up-pro-text-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  /* Remove tree images on mobile */
+  .up-pro-hero::before,
+  .up-pro-hero::after {
+    display: none;
+  }
+  
+  .blog-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 2rem 1rem;
+  }
+
+  .bolg {
+    max-width: 100%;
+ 
+    height: 20rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+
+  .bolg h2 {
+    font-size: 18px;
+  }
+
+  .bolg p {
+    font-size: 14px;
+  }
+
+  .bolg span {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .up-pro-bolg-btns {
+   
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Remove tree images on mobile */
+  .bolg::before,
+  .bolg::after {
+    display: none;
+  }
+  .line{
+    display: none;
+  }
+.fq-top h2{
+font-size: 30px;
+line-height: 100%;
+}
+.fq-top p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+  .fq-bottom{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,10%);
+    gap: 0px;  
+    padding: 0px 0rem;
+  
+  }
+  .fq-bottom-item{
+    background: url(../img/up-pro-faq-bg.png) no-repeat center center/contain;
+    padding: 0px 3rem;
+    width: 100%;
+    min-height: 40px;
+    height: fit-content;
+  }
+  .fq-bottom-item h2{
+    font-size: 14px;
+    padding: 60px 0;
+    max-width: 100%;
+  }
+}
+
