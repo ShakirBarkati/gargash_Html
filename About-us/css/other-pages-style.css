@@ -13,47 +13,14 @@ html,body {
 /* Mobile (Max width 768px) */
 
 @media (max-width: 768px) {
-  .container,  .brands,  .about,  .services-solution {
+  .container,  .about {
     margin: 0 auto;
     padding: 0;
   }
 
   /* Hero Section Start */
 
-  .heading {
-    font-size: 35px;
-    line-height: 40px;
-  }
-
-  .hero-text {
-    line-height: 22px;
-    color: #ffffff;
-    margin: 20px 0px;
-  }
-
   /* Buttons */
-
-  .btn-custom {
-    display: inline-block;
-    padding: 10px 25px;
-    font-size: 16px;
-    border-radius: 8px;
-    margin: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    border: none;
-  }
-
-  .hero-btn-1 {
-    color: #111;
-    background: #e6b110;
-  }
-
-  .hero-btn-2 {
-    color: #fff;
-    border: 2px solid #fff;
-    background: transparent;
-  }
 
   /* Hero Section End*/
 
@@ -86,35 +53,9 @@ html,body {
     left: 0;
   }
 
-  .about .left {
-    width: 100%;
-    order: 2;
-  }
-
-  .about .right {
-    width: 100%;
-    order: 1;
-    text-align: center;
-  }
-
-  .about-content {
-    font-size: 28px;
-    line-height: 1.2;
-  }
-
-  .about .left .form-container {
-    padding: 50px 30px 80px 30px;
-  }
-
   .double {
     flex-direction: column;
     gap: 15px;
-  }
-
-  .left .btn {
-    width: 80px;
-    height: 80px;
-    margin-top: -30px;
   }
 
   /* About Section End */
@@ -136,6 +77,7 @@ html,body {
 
   .Partner-heading {
     font-size: 28px;
+    text-align: center !important;
   }
 
   .Partner-content {
@@ -160,18 +102,6 @@ html,body {
 
   /* Services Solution Styling Start */
 
-  .services-solution {
-    height: auto;
-    padding: 30px;
-    justify-content: start;
-  }
-
-  .services-solution .top h2 {
-    font-size: 32px;
-    line-height: 1.2;
-    padding: 0px;
-  }
-
   .d-flex {
     flex-direction: column;
     align-items: center !important;
@@ -190,15 +120,6 @@ html,body {
   /* box-container Styling End */
 
   /* Brand Logo Styling Start */
-
-  .brands {
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 2rem 1rem;
-  }
 
   /* Brand Logo Styling End */
 }
@@ -224,15 +145,6 @@ html,body {
 
   /* Services Solution Styling Start */
 
-  .services-solution {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  .services-solution .top h2 {
-    font-size: 20px;
-  }
-
   .partnerme-btn {
     font-size: 16px;
   }
@@ -240,21 +152,8 @@ html,body {
   /* Services Solution Styling End */
 }
 
-@media (max-width: 1200px) {
-  .services-solution .top h2 {
-    margin-top: 0px;
-    font-size: 48px;
-  }
-}
-
 @media (max-width: 992px) {
   /* Services Solution Styling Start */
-
-  .services-solution .top h2 {
-    font-size: 25px;
-    padding: 0;
-    margin-top: 0px;
-  }
 
   /* Services Solution Styling End */
 }
@@ -271,43 +170,14 @@ html,body {
     text-align: left;
   }
 
-  .container,  .form-section {
+  .container {
     margin: 0 auto;
     padding: 0;
   }
 
   /* Hero Section */
 
-  .hero-text {
-    font-size: 14px;
-    line-height: 20px;
-    color: #ffffff;
-    margin: 15px 0;
-  }
-
   /* Buttons */
-
-  .btn-custom {
-    display: inline-block;
-    padding: 8px 20px;
-    font-size: 14px;
-    border-radius: 6px;
-    margin: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    border: none;
-  }
-
-  .hero-btn-1 {
-    background: #e6b110;
-    color: #111;
-  }
-
-  .hero-btn-2 {
-    background: transparent;
-    color: #fff;
-    border: 2px solid #fff;
-  }
 
   /* Hero Section Styling End */
 
@@ -317,31 +187,6 @@ html,body {
 
   /* Form Section Styling Start */
 
-  .form-section {
-    flex-direction: column;
-    height: auto;
-    padding: 2rem 0rem;
-    text-align: center;
-  }
-
-  .right,  .left {
-    width: 100%;
-  }
-
-  .form-content {
-    font-size: 35px;
-    line-height: 100%;
-  }
-
-  .right div p {
-    font-size: 18px;
-    margin: 15px 0;
-  }
-
-  .form-section .left .form-container {
-    padding: 20px 20px;
-  }
-
   .input-group {
     padding: 8px;
   }
@@ -349,16 +194,6 @@ html,body {
   .double {
     flex-direction: column;
     gap: 8px;
-  }
-
-  .left .btn {
-    width: 80px;
-    height: 80px;
-    margin-top: 1rem;
-  }
-
-  .car-group-img-container {
-    flex-direction: column;
   }
 
   /* Form Section Styling End */
@@ -393,31 +228,6 @@ html,body {
 
   /* Form Section Styling Start */
 
-  .form-section {
-    flex-direction: column;
-    height: auto;
-    padding: 2rem 0rem;
-    text-align: center;
-  }
-
-  .right,  .left {
-    width: 100%;
-  }
-
-  .form-content {
-    font-size: 25px;
-    line-height: 100%;
-  }
-
-  .right div p {
-    font-size: 18px;
-    margin: 10px 0;
-  }
-
-  .form-section .left .form-container {
-    padding: 20px 20px;
-  }
-
   .input-group {
     padding: 8px;
   }
@@ -425,16 +235,6 @@ html,body {
   .double {
     flex-direction: column;
     gap: 8px;
-  }
-
-  .left .btn {
-    width: 80px;
-    height: 80px;
-    margin-top: 1rem;
-  }
-
-  .car-group-img-container {
-    flex-direction: column;
   }
 
   /* Form Section Styling End */
@@ -471,75 +271,17 @@ html,body {
 @media (max-width: 768px) {
   /* All type section styling Start */
 
-  .all-type-section {
-    padding: 2rem;
-    gap: 30px;
-  }
-
   /* All type section styling End */
 
   /* Text Section Styling */
-
-  .text-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px;
-    text-align: center;
-  }
-
-  .text-container {
-    max-width: 600px;
-  }
-
-  .text-section h4 {
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .text-section p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-  }
 
   /* Text Section Styling */
 
   /* Form Section Responsive Start*/
 
-  .major-and-minor-form-section {
-    flex-direction: column;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .major-and-minor-form {
-    max-width: 100%;
-    padding: 20px;
-  }
-
-  .text-section h4,  .text-section p {
-    font-size: 14px;
-    padding: 10px;
-  }
-
   /* Form Section Responsive End */
 
   /* Logo Section Styling Start*/
-
-  .logo-section h2 {
-    font-size: 32px;
-    padding: 0 2rem;
-  }
-
-  .logos-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
 
   /* Logo Section Styling End*/
 }
@@ -726,48 +468,7 @@ html,body {
   z-index: 1;
 }
 
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
-}
-
-.heading {
-  font-size: 70px;
-  line-height: 93%;
-}
-
-.hero-text {
-  font-size: 15.75px;
-  line-height: 103%;
-  font-weight: 400;
-  color: #ffffff;
-  margin: 20px 0px;
-}
-
 /* Buttons */
-
-.btn-custom {
-  display: inline-block;
-  padding: 12px 35px;
-  font-size: 18.51px;
-  border-radius: 8px;
-  margin: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  border: none;
-}
-
-.hero-btn-1 {
-  color: #111;
-  background: #e6b110;
-}
-
-.hero-btn-2 {
-  color: #fff;
-  border: 2px solid #fff;
-  background: transparent;
-}
 
 /* About Section styling Start  */
 
@@ -794,37 +495,6 @@ html,body {
   left: 5%;
   z-index: 1;
   overflow: visible;
-}
-
-.about .left {
-  width: 50%;
-}
-
-.about-content {
-  font-size: 65.47px;
-  font-weight: 700;
-  line-height: 85%;
-  text-align: center;
-  color: black;
-}
-
-.about .left {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.about .left .form-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url("../img/form-bg.png") no-repeat center center/cover;
-  padding: 100px 60px;
-  border-radius: 10px;
 }
 
 .form {
@@ -859,31 +529,6 @@ input {
   justify-content: space-between;
 }
 
-.left .btn {
-  background: #e6b110;
-  color: #111;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: -1.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.left .btn:hover {
-  background: #e6b110e0;
-  color: #111;
-}
-
-.car-group-img-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* About Section styling End  */
 
 /* Service Partner Styling Start */
@@ -899,13 +544,6 @@ input {
   justify-content: center;
   align-items: center;
   margin-top: 15rem;
-}
-
-.hero-title {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #1f2937;
-  /* Gray-900 */
 }
 
 .partnerme-btn {
@@ -944,27 +582,6 @@ input {
 
 /* Services Solution Styling Start */
 
-.services-solution {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15rem;
-}
-
-.services-solution .top h2 {
-  font-size: 58.62px;
-  font-weight: 700;
-  line-height: 93%;
-  text-align: center;
-}
-
-.services-solution .top h2 span {
-  color: #e6b110;
-}
-
 /* Services Solution Styling End */
 
 /* box-container Styling Start */
@@ -973,58 +590,7 @@ input {
 
 /* Brands Section Styling Start */
 
-.brands {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 2rem;
-  margin-top: 8rem;
-  flex-wrap: wrap;
-}
-
 /* Scrollbar Styling */
-
-.logo-1 {
-  background: url("../img/logo-1.png") no-repeat center center;
-}
-
-.logo-2 {
-  background: url("../img/logo-2.png") no-repeat center center;
-}
-
-.logo-3 {
-  background: url("../img/logo-3.png") no-repeat center center;
-}
-
-.logo-4 {
-  background: url("../img/logo-4.png") no-repeat center center;
-}
-
-.logo-5 {
-  background: url("../img/logo-5.png") no-repeat center center;
-}
-
-.logo-6 {
-  background: url("../img/logo-6.png") no-repeat center center;
-}
-
-.logo-7 {
-  background: url("../img/logo-7.png") no-repeat center center;
-}
-
-.logo-8 {
-  background: url("../img/logo-8.png") no-repeat center center;
-}
-
-.logo-9 {
-  background: url("../img/logo-9.png") no-repeat center center;
-}
-
-.logo-10 {
-  background: url("../img/logo-10.png") no-repeat center center;
-}
 
 /* Brands Section Styling End */
 
@@ -1050,62 +616,6 @@ input {
 /* services-includes Styling End */
 
 /* form-section Stylind Start */
-
-.form-section {
-  position: relative;
-  background: url("../img/car-insp-form-section-bg.png") no-repeat center
-    center/cover;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 0 2rem;
-  margin-top: 7rem;
-}
-
-.form-section .left {
-  width: 50%;
-}
-
-.form-content {
-  font-size: 65.47px;
-  font-weight: 700;
-  line-height: 85%;
-  text-align: center;
-  color: black;
-}
-
-.right div p {
-  font-size: 22.58px;
-  line-height: 135%;
-  font-weight: 300;
-  letter-spacing: -4%;
-  color: #111;
-  margin: 20px 0px;
-  text-align: center;
-}
-
-.form-section .left {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.form-section .left .form-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url("../img/form-bg.png") no-repeat center center/cover;
-  padding: 100px 60px;
-  border-radius: 10px;
-}
 
 .form {
   width: 100%;
@@ -1137,31 +647,6 @@ input {
   gap: 10px;
   width: 100%;
   justify-content: space-between;
-}
-
-.left .btn {
-  background: #e6b110;
-  color: #111;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: -1.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.left .btn:hover {
-  background: #e6b110e0;
-  color: #111;
-}
-
-.car-group-img-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* form-section Stylind End */
@@ -1361,10 +846,6 @@ input {
   /* Hero Section Styling End*/
 
   /* about us section Styling */
-
-  .about-section-heading {
-    font-size: 30px;
-  }
 }
 
 /* ///////////////////////////////////////////////////////// */
@@ -1442,63 +923,6 @@ section {
 
 /* form-section Stylind Start */
 
-.form-section {
-  position: relative;
-  background: url("../img/auto-spa-service-form-bg.png") no-repeat center
-    center/cover;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 0 2rem;
-  margin-top: 7rem;
-  padding-bottom: 5rem;
-}
-
-.form-section .left {
-  width: 50%;
-}
-
-.form-content {
-  font-size: 65.47px;
-  font-weight: 700;
-  line-height: 85%;
-  text-align: center;
-  color: black;
-}
-
-.right div p {
-  font-size: 22.58px;
-  line-height: 135%;
-  font-weight: 300;
-  letter-spacing: -4%;
-  color: #111;
-  margin: 20px 0px;
-  text-align: center;
-}
-
-.form-section .left {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.form-section .left .form-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url("../img/form-bg.png") no-repeat center center/cover;
-  padding: 100px 60px;
-  border-radius: 10px;
-}
-
 .form {
   width: 100%;
   display: flex;
@@ -1554,31 +978,6 @@ input {
   /* Bacha hua space fill kare */
 }
 
-.left .btn {
-  background: #fff;
-  color: #111;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: -1.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.left .btn:hover {
-  background: #e6b110e0;
-  color: #111;
-}
-
-.car-group-img-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* form-section Stylind End */
 
 /* specialists Section */
@@ -1610,44 +1009,6 @@ input {
 
   /* Form Section Start */
 
-  .form-section {
-    flex-direction: column-reverse;
-    /* Reverse order for mobile */
-    height: auto;
-    padding: 50px 15px;
-    margin-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
-  .form-section .left {
-    width: 100%;
-    order: 2;
-    /* Form ko neeche le aya */
-  }
-
-  .form-section .right {
-    width: 100%;
-    order: 1;
-    /* Text ko upar le aya */
-    padding: 20px 0;
-  }
-
-  .form-content {
-    font-size: 32px;
-    line-height: 100%;
-  }
-
-  .right div p {
-    font-size: 18px;
-    line-height: 125%;
-    margin: 10px 0;
-  }
-
-  .form-section .left .form-container {
-    width: 100%;
-    padding: 50px 20px;
-  }
-
   .form {
     width: 100%;
     gap: 10px;
@@ -1667,12 +1028,6 @@ input {
     width: 100%;
   }
 
-  .left .btn {
-    width: 70px;
-    height: 70px;
-    margin-top: -1rem;
-  }
-
   .input-group img {
     height: 16px;
   }
@@ -1682,10 +1037,6 @@ input {
   }
 
   /* Remove car group image for mobile */
-
-  .car-group-img-container {
-    display: none;
-  }
 
   /* Form Section End */
 
@@ -1710,24 +1061,6 @@ input {
 
 /* All Type Section Styling Start */
 
-.all-type-section {
-  width: 100%;
-  /* height: 100vh; */
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  gap: 50px;
-  margin-top: 0px;
-  padding: 4rem;
-}
-
-.all-type-section .all-type-top h2 {
-  font-size: 58.62px;
-  font-weight: 700;
-  line-height: 106%;
-  text-align: center;
-}
-
 .content {
   display: none;
 }
@@ -1736,77 +1069,13 @@ input {
 
 /* Major And minor form section styling start */
 
-.major-and-minor-form-section {
-  flex-direction: column-reverse;
-  background: url(./img/majo-minor-form-section-bg.png);
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  /* Center align content */
-  justify-content: center;
-  /* Center align horizontally */
-  min-height: 100vh;
-  /* Ensure full height */
-}
-
-.major-and-minor-form-section::after {
-  content: "";
-  background: none;
-}
-
-.major-and-minor-form {
-  max-width: 45%;
-}
-
 /* Major And minor form section styling End */
 
 /* text-section Start  */
 
-.text-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  text-align: center;
-}
-
-.text-section h4 {
-  color: red;
-  font-size: 21.39px;
-  line-height: 135%;
-  letter-spacing: -4%;
-  font-weight: bold;
-}
-
 /* text-section End */
 
 /* Logo Section Start */
-
-.logo-section {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 5rem 0;
-}
-
-.logo-section h2 {
-  font-size: 58.62px;
-  font-weight: bold;
-  line-height: 106%;
-  padding: 0px 23rem;
-  text-align: center;
-}
-
-.logos-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
 
 /* Backgrounds for each logo-item */
 
@@ -1860,48 +1129,7 @@ input {
   z-index: 1;
 }
 
-.hero-content {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
-}
-
-.heading {
-  font-size: 70px;
-  line-height: 93%;
-}
-
-.hero-text {
-  font-size: 15.75px;
-  line-height: 103%;
-  font-weight: 400;
-  color: #ffffff;
-  margin: 20px 0px;
-}
-
 /* Buttons */
-
-.btn-custom {
-  display: inline-block;
-  padding: 12px 35px;
-  font-size: 18.51px;
-  border-radius: 8px;
-  margin: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  border: none;
-}
-
-.hero-btn-1 {
-  color: #111;
-  background: #e6b110;
-}
-
-.hero-btn-2 {
-  color: #fff;
-  border: 2px solid #fff;
-  background: transparent;
-}
 
 /* About Section styling Start  */
 
@@ -1928,37 +1156,6 @@ input {
   left: 5%;
   z-index: 1;
   overflow: visible;
-}
-
-.about .left {
-  width: 50%;
-}
-
-.about-content {
-  font-size: 65.47px;
-  font-weight: 700;
-  line-height: 85%;
-  text-align: center;
-  color: black;
-}
-
-.about .left {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.about .left .form-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url("../img/form-bg.png") no-repeat center center/cover;
-  padding: 100px 60px;
-  border-radius: 10px;
 }
 
 .form {
@@ -1993,31 +1190,6 @@ input {
   justify-content: space-between;
 }
 
-.left .btn {
-  background: #e6b110;
-  color: #111;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: -1.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.left .btn:hover {
-  background: #e6b110e0;
-  color: #111;
-}
-
-.car-group-img-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* About Section styling End  */
 
 /* Service Partner Styling Start */
@@ -2029,13 +1201,6 @@ input {
   justify-content: center;
   align-items: center;
   margin-top: 15rem;
-}
-
-.hero-title {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #1f2937;
-  /* Gray-900 */
 }
 
 .partnerme-btn {
@@ -2074,27 +1239,6 @@ input {
 
 /* Services Solution Styling Start */
 
-.services-solution {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15rem;
-}
-
-.services-solution .top h2 {
-  font-size: 58.62px;
-  font-weight: 700;
-  line-height: 93%;
-  text-align: center;
-}
-
-.services-solution .top h2 span {
-  color: #e6b110;
-}
-
 /* Services Solution Styling End */
 
 /* box-container Styling Start */
@@ -2103,58 +1247,7 @@ input {
 
 /* Brands Section Styling Start */
 
-.brands {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 2rem;
-  margin-top: 8rem;
-  flex-wrap: wrap;
-}
-
 /* Scrollbar Styling */
-
-.logo-1 {
-  background: url("../img/logo-1.png") no-repeat center center;
-}
-
-.logo-2 {
-  background: url("../img/logo-2.png") no-repeat center center;
-}
-
-.logo-3 {
-  background: url("../img/logo-3.png") no-repeat center center;
-}
-
-.logo-4 {
-  background: url("../img/logo-4.png") no-repeat center center;
-}
-
-.logo-5 {
-  background: url("../img/logo-5.png") no-repeat center center;
-}
-
-.logo-6 {
-  background: url("../img/logo-6.png") no-repeat center center;
-}
-
-.logo-7 {
-  background: url("../img/logo-7.png") no-repeat center center;
-}
-
-.logo-8 {
-  background: url("../img/logo-8.png") no-repeat center center;
-}
-
-.logo-9 {
-  background: url("../img/logo-9.png") no-repeat center center;
-}
-
-.logo-10 {
-  background: url("../img/logo-10.png") no-repeat center center;
-}
 
 /* Brands Section Styling End */
 
@@ -2180,62 +1273,6 @@ input {
 /* services-includes Styling End */
 
 /* form-section Stylind Start */
-
-.form-section {
-  position: relative;
-  background: url("../img/car-insp-form-section-bg.png") no-repeat center
-    center/cover;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 0 2rem;
-  margin-top: 7rem;
-}
-
-.form-section .left {
-  width: 50%;
-}
-
-.form-content {
-  font-size: 65.47px;
-  font-weight: 700;
-  line-height: 85%;
-  text-align: center;
-  color: black;
-}
-
-.right div p {
-  font-size: 22.58px;
-  line-height: 135%;
-  font-weight: 300;
-  letter-spacing: -4%;
-  color: #111;
-  margin: 20px 0px;
-  text-align: center;
-}
-
-.form-section .left {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.form-section .left .form-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url("../img/form-bg.png") no-repeat center center/cover;
-  padding: 100px 60px;
-  border-radius: 10px;
-}
 
 .form {
   width: 100%;
@@ -2267,31 +1304,6 @@ input {
   gap: 10px;
   width: 100%;
   justify-content: space-between;
-}
-
-.left .btn {
-  background: #e6b110;
-  color: #111;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: -1.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.left .btn:hover {
-  background: #e6b110e0;
-  color: #111;
-}
-
-.car-group-img-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* form-section Stylind End */
@@ -2567,7 +1579,7 @@ input {
   }
 
   .about-us-submit img {
-    width: 24px;
+    width: 18px;
   }
 }
 
@@ -3004,10 +2016,6 @@ input {
   /* Hero Section Styling End*/
 
   /* about us section Styling */
-
-  .about-section-heading {
-    font-size: 30px;
-  }
 }
 
 /* ///////////////////////////////////////////////////////// */
@@ -3076,63 +2084,6 @@ section {
 
 /* form-section Stylind Start */
 
-.form-section {
-  position: relative;
-  background: url("../img/auto-spa-service-form-bg.png") no-repeat center
-    center/cover;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 0 2rem;
-  margin-top: 7rem;
-  padding-bottom: 5rem;
-}
-
-.form-section .left {
-  width: 50%;
-}
-
-.form-content {
-  font-size: 65.47px;
-  font-weight: 700;
-  line-height: 85%;
-  text-align: center;
-  color: black;
-}
-
-.right div p {
-  font-size: 22.58px;
-  line-height: 135%;
-  font-weight: 300;
-  letter-spacing: -4%;
-  color: #111;
-  margin: 20px 0px;
-  text-align: center;
-}
-
-.form-section .left {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.form-section .left .form-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url("../img/form-bg.png") no-repeat center center/cover;
-  padding: 100px 60px;
-  border-radius: 10px;
-}
-
 .form {
   width: 100%;
   display: flex;
@@ -3188,31 +2139,6 @@ input {
   /* Bacha hua space fill kare */
 }
 
-.left .btn {
-  background: #fff;
-  color: #111;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-top: -1.8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.left .btn:hover {
-  background: #e6b110e0;
-  color: #111;
-}
-
-.car-group-img-container {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* form-section Stylind End */
 
 /* specialists Section */
@@ -3244,44 +2170,6 @@ input {
 
   /* Form Section Start */
 
-  .form-section {
-    flex-direction: column-reverse;
-    /* Reverse order for mobile */
-    height: auto;
-    padding: 50px 15px;
-    margin-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
-  .form-section .left {
-    width: 100%;
-    order: 2;
-    /* Form ko neeche le aya */
-  }
-
-  .form-section .right {
-    width: 100%;
-    order: 1;
-    /* Text ko upar le aya */
-    padding: 20px 0;
-  }
-
-  .form-content {
-    font-size: 32px;
-    line-height: 100%;
-  }
-
-  .right div p {
-    font-size: 18px;
-    line-height: 125%;
-    margin: 10px 0;
-  }
-
-  .form-section .left .form-container {
-    width: 100%;
-    padding: 50px 20px;
-  }
-
   .form {
     width: 100%;
     gap: 10px;
@@ -3289,7 +2177,8 @@ input {
 
   .input-group {
     padding: 8px;
-    font-size: 14px;
+        font-size: 14px;
+        align-items: center !important;
   }
 
   .double {
@@ -3301,12 +2190,6 @@ input {
     width: 100%;
   }
 
-  .left .btn {
-    width: 70px;
-    height: 70px;
-    margin-top: -1rem;
-  }
-
   .input-group img {
     height: 16px;
   }
@@ -3316,10 +2199,6 @@ input {
   }
 
   /* Remove car group image for mobile */
-
-  .car-group-img-container {
-    display: none;
-  }
 
   /* Form Section End */
 
@@ -3344,24 +2223,6 @@ input {
 
 /* All Type Section Styling Start */
 
-.all-type-section {
-  width: 100%;
-  /* height: 100vh; */
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  gap: 50px;
-  margin-top: 0px;
-  padding: 4rem;
-}
-
-.all-type-section .all-type-top h2 {
-  font-size: 58.62px;
-  font-weight: 700;
-  line-height: 106%;
-  text-align: center;
-}
-
 .content {
   display: none;
 }
@@ -3370,77 +2231,13 @@ input {
 
 /* Major And minor form section styling start */
 
-.major-and-minor-form-section {
-  flex-direction: column-reverse;
-  background: url(./img/majo-minor-form-section-bg.png);
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  /* Center align content */
-  justify-content: center;
-  /* Center align horizontally */
-  min-height: 100vh;
-  /* Ensure full height */
-}
-
-.major-and-minor-form-section::after {
-  content: "";
-  background: none;
-}
-
-.major-and-minor-form {
-  max-width: 45%;
-}
-
 /* Major And minor form section styling End */
 
 /* text-section Start  */
 
-.text-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  text-align: center;
-}
-
-.text-section h4 {
-  color: red;
-  font-size: 21.39px;
-  line-height: 135%;
-  letter-spacing: -4%;
-  font-weight: bold;
-}
-
 /* text-section End */
 
 /* Logo Section Start */
-
-.logo-section {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 5rem 0;
-}
-
-.logo-section h2 {
-  font-size: 58.62px;
-  font-weight: bold;
-  line-height: 106%;
-  padding: 0px 23rem;
-  text-align: center;
-}
-
-.logos-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
 
 /* Backgrounds for each logo-item */
 
@@ -3467,10 +2264,6 @@ input {
 /* Line End */
 
 /* F&Q Section Start */
-
-.wrapper {
-  width: 60%;
-}
 
 h1 {
   margin-bottom: 20px;
