@@ -1,0 +1,1123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+}
+
+/* Mobile (Max width 768px) */
+@media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
+  .container,
+  .box-container,
+  .brands,
+  .about,
+  .services-solution {
+    margin: 0 auto;
+    padding: 0;
+  }
+  /* Hero Section Start */
+  .heading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .hero-text {
+    line-height: 22px;
+    color: #ffffff;
+    margin: 20px 0px;
+  }
+
+  /* Buttons */
+  .btn-custom {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+  }
+
+  .hero-btn-1 {
+    color: #111;
+    background: #e6b110;
+  }
+  .hero-btn-2 {
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+  }
+
+  /* Hero Section End*/
+
+  /* About Section Start */
+
+  .about {
+    position: relative;
+    background: url("../img/about-section-bg.png") no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  /* car image in bottom  */
+  .about {
+    flex-direction: column;
+    height: auto;
+    padding: 50px 1rem;
+  }
+
+  .about::after {
+    width: 100%;
+    height: auto;
+    bottom: -150px;
+    left: 0;
+  }
+
+  .about .left {
+    width: 100%;
+    order: 2;
+  }
+
+  .about .right {
+    width: 100%;
+    order: 1;
+    text-align: center;
+  }
+
+  .about-content {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .about .left .form-container {
+    padding: 50px 30px 80px 30px;
+  }
+
+  .double {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .left .btn {
+    width: 80px;
+    height: 80px;
+    margin-top: -30px;
+  }
+  /* About Section End */
+
+  /* Service Partner Styling Start */
+
+  .hero-section {
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .col-md-6 {
+    width: 100%;
+  }
+
+  .Partner-heading {
+    font-size: 28px;
+  }
+
+  .Partner-content {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .partnerme-btn {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+
+  .d-flex.justify-content-center.justify-content-md-start {
+    justify-content: center !important;
+  }
+
+  .col-md-6 img {
+    max-width: 90%;
+  }
+
+  /* Service Partner Styling End */
+
+  /* Services Solution Styling Start */
+
+  .services-solution {
+    height: auto;
+    padding: 30px;
+    justify-content: start;
+  }
+
+  .services-solution .top h2 {
+    font-size: 32px;
+    line-height: 1.2;
+    padding: 0px;
+  }
+
+  .services-solution .mid img {
+    width: 90%;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .partnerme-btn {
+    width: 100%;
+    max-width: 250px;
+    font-size: 18px;
+  }
+
+  /* Services Solution Styling End */
+
+  /* box-container Styling start */
+
+  .box-container {
+    height: auto;
+    margin-top: 0;
+    padding: 20px;
+  }
+  .boxs-wraper {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .box {
+    width: 100%;
+    padding: 15px;
+  }
+  .box img {
+    width: 100%;
+  }
+  .box-content h4 {
+    font-size: 24px;
+  }
+  .box-content p {
+    font-size: 16px;
+  }
+
+  /* box-container Styling End */
+
+  /* Brand Logo Styling Start */
+  .brands {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .brand-content,
+  .brand-logos {
+    width: 100%;
+    height: auto;
+  }
+  .brand-content {
+    text-align: center;
+  }
+
+  .brand-content h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .brand-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .brand-logos {
+    flex-direction: column;
+  }
+
+  .brand-logos img {
+    display: none; /* Mobile view se hata diya */
+  }
+
+  .logo-box {
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-box-wraper {
+    grid-template-columns: repeat(2, 1fr); /* Mobile par 2 columns */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden; /* Scroll ko bhi hataya */
+  }
+
+  .logo-box-wraper span {
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  /* Brand Logo Styling End */
+}
+
+@media (max-width: 480px) {
+  .Partner-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .Partner-content {
+    font-size: 14px;
+  }
+
+  .partnerme-btn {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  .col-md-6 img {
+    max-width: 100%;
+  }
+
+  /* Services Solution Styling Start */
+
+  .services-solution {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .services-solution .top h2 {
+    font-size: 20px;
+  }
+  .services-solution .mid {
+    margin: 0 auto;
+    padding-left: 1.3rem;
+  }
+  .services-solution .mid img {
+    width: 400px;
+  }
+
+  .partnerme-btn {
+    font-size: 16px;
+  }
+
+  /* Services Solution Styling End */
+}
+
+@media (max-width: 1200px) {
+  .services-solution .top h2 {
+    margin-top: 0px;
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Services Solution Styling Start */
+  .services-solution .top h2 {
+    font-size: 25px;
+    padding: 0;
+    margin-top: 0px;
+  }
+  .mid img {
+    width: 100%;
+  }
+  /* Services Solution Styling End */
+}
+
+@media (max-width: 1024px) {
+  .boxs-wraper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* /////////////////////////////// */
+
+/* Car Inspection Responsive Styling Start */
+
+/* Tablet View (max-width: 768px) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .container,
+  .car-insp-hero-section,
+  .services-includes,
+  .form-section,
+  .portfolio {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /* Hero Section */
+  .car-insp-hero-section {
+    color: #111;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/car-inspection-hero-bg.png) no-repeat center center /
+      cover;
+    position: relative;
+    z-index: 10;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .car-insp-heading {
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .hero-text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    margin: 15px 0;
+  }
+
+  /* Buttons */
+  .btn-custom {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    margin: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+  }
+
+  .hero-btn-1 {
+    background: #e6b110;
+    color: #111;
+  }
+
+  .hero-btn-2 {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  /* Hero Section Styling End */
+
+  /* services-includes Responsive Styling Start */
+
+  .services-includes {
+    padding: 30px 0;
+  }
+
+  .services-includes .top h2 {
+    font-size: 36px;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .services-includes .top p {
+    font-size: 15px;
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .services-includes .mid img {
+    max-width: 90%;
+  }
+  /* services-includes Responsive Styling End */
+
+  /* Form Section Styling Start */
+
+  .form-section {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0rem;
+    text-align: center;
+  }
+  .right,
+  .left {
+    width: 100%;
+  }
+
+  .form-content {
+    font-size: 35px;
+    line-height: 100%;
+  }
+
+  .right div p {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+
+  .form-section .left .form-container {
+    padding: 20px 20px;
+  }
+
+  .input-group {
+    padding: 8px;
+  }
+
+  .double {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .left .btn {
+    width: 80px;
+    height: 80px;
+    margin-top: 1rem;
+  }
+
+  .car-group-img-container {
+    flex-direction: column;
+  }
+
+  /* Form Section Styling End */
+
+  /* Portfolio Section Styling Start */
+
+  .portfolio {
+    padding: 30px 10px; /* Reduced padding for small screens */
+  }
+
+  .portfolio-title h1 {
+    font-size: 32px; /* Smaller heading for mobile */
+    text-align: center;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(180px, 1fr)
+    ); /* Adjust grid layout */
+    gap: 15px;
+  }
+
+  .portfolio-card {
+    max-width: 100%; /* Full width for small screens */
+  }
+
+  .portfolio-card img {
+    height: 200px; /* Smaller image size */
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .portfolio-card h2 {
+    font-size: 16px; /* Adjusted font size */
+    margin-top: 1rem;
+    padding: 0px 1rem;
+  }
+
+  .portfolio-card p {
+    font-size: 12px; /* Adjusted paragraph font size */
+  }
+
+  /* Portfolio Section Styling End */
+}
+
+/* Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+  .car-insp-content {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .car-insp-btns {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  .car-insp-btn {
+    background-color: #e6b110;
+    color: #111;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .car-insp-btn2 {
+    background-color: transparent;
+    border: 2px solid #111;
+  }
+
+  .col-md-6 img {
+    max-width: 100%;
+  }
+}
+
+/* services-includes Responsive Styling */
+
+/* Mobile View (max-width: 576px) */
+@media (max-width: 576px) {
+  .services-includes {
+    padding: 20px 0;
+  }
+
+  .services-includes .top h2 {
+    font-size: 28px;
+    padding: 0 1rem;
+  }
+
+  .services-includes .top p {
+    font-size: 14px;
+    padding: 0 1rem;
+  }
+
+  .services-includes .mid img {
+    max-width: 100%;
+  }
+}
+/* Car Inspection Responsive Styling End */
+
+/* Body Shop Responsive Styling End */
+
+/* Responsive Adjustments for Mobile */
+@media (max-width: 768px) {
+  /*  Hero Section Styling End  */
+  .body-shop-hero-section {
+    height: auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .car-insp-hero-section-wraper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .car-insp-heading {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .car-insp-content {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .car-insp-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .car-insp-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+  .atuo-body-service {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .atuo-body-left,
+  .atuo-body-right {
+    width: 100%;
+    text-align: center;
+  }
+  .atuo-body-right h2 {
+    font-size: 32px;
+  }
+  .atuo-body-right p {
+    font-size: 16px;
+  }
+  .list-items-parent {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .list-items-1,
+  .list-items-2 {
+    width: 100%;
+  }
+  /*  Hero Section Styling Start  */
+
+  /* Form Section Styling Start */
+
+  .form-section {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0rem;
+    text-align: center;
+  }
+  .right,
+  .left {
+    width: 100%;
+  }
+
+  .form-content {
+    font-size: 25px;
+    line-height: 100%;
+  }
+
+  .right div p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .form-section .left .form-container {
+    padding: 20px 20px;
+  }
+
+  .input-group {
+    padding: 8px;
+  }
+
+  .double {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .left .btn {
+    width: 80px;
+    height: 80px;
+    margin-top: 1rem;
+  }
+
+  .car-group-img-container {
+    flex-direction: column;
+  }
+
+  /* Form Section Styling End */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .atuo-body-service {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .atuo-body-service::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(none);
+    background-size: contain;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  .atuo-body-left,
+  .atuo-body-right {
+    width: 100%;
+  }
+  .atuo-body-right h2 {
+    font-size: 36px;
+  }
+  .atuo-body-right p {
+    font-size: 18px;
+  }
+  .list-items-1,
+  .list-items-2 {
+    width: 100%;
+  }
+
+  .list-items-1 ul,
+  .list-items-2 ul {
+    text-align: left;
+  }
+  .list-items-parent span {
+    display: none;
+  }
+}
+
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .body-shop-portfolio-header {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .body-shop-portfolio-btns {
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .body-shop-portfolio-header {
+    padding: 0px 0.5rem;
+  }
+  .body-shop-portfolio-title h1 {
+    font-size: 32px;
+  }
+  .body-shop-portfolio-title p {
+    font-size: 14px;
+    text-align: left;
+  }
+  .body-shop-portfolio-btn {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+
+  .body-shop-portfolio-btn2 {
+    padding: 10px 50px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio {
+    padding: 30px 10px;
+  }
+
+  .body-shop-portfolio-title h1 {
+    font-size: 24px;
+  }
+
+  .body-shop-portfolio-btns {
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+  }
+
+  .body-shop-portfolio-btn {
+    width: 100%;
+  }
+
+  .portfolio-card img {
+    height: 250px;
+  }
+}
+
+/* /////////////////////////// */
+/* /////////////////////////// */
+/* /////////////////////////// */
+
+/* Mobile Responsive */
+@media screen and (max-width: 1024px) {
+  .body-shop-box-container {
+    height: auto;
+    padding: 20px;
+  }
+  .boxs-wraper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .body-shop-box {
+    max-width: 45%;
+    height: auto;
+  }
+  .box-content h4 {
+    font-size: 24px;
+  }
+  .box-content p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body-shop-box {
+    max-width: 100%;
+  }
+  .boxs-wraper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .box-content h4 {
+    font-size: 22px;
+  }
+  .box-content p {
+    font-size: 15px;
+  }
+}
+
+/* box-container Styling End */
+
+/* Body Shop Responsive Styling End */
+
+/* Major  And Minor Page Styling Start */ 
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  /* All type section styling Start */
+  .all-type-section {
+    padding: 2rem;
+    gap: 30px;
+  }
+
+  .tabs {
+    flex-direction: column;
+    max-width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+  }
+
+  .tab {
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .content.active {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .capsule-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 20px;
+  }
+
+  .capsule-box img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
+  }
+
+  .capsule-box h4 {
+    font-size: 18px;
+  }
+
+  .capsule-box p {
+    font-size: 12px;
+  }
+  /* All type section styling End */
+
+  
+
+/* Text Section Styling */
+.text-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.text-container {
+  max-width: 600px;
+}
+
+.text-section h4 {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+/* Text Section Styling */
+
+    /* Form Section Responsive Start*/
+    .major-and-minor-form-section {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .major-and-minor-form {
+      max-width: 100%;
+      padding: 20px;
+    }
+  
+    .text-section h4, .text-section p {
+      font-size: 14px;
+      padding: 10px;
+    }
+    
+        /* Form Section Responsive End */
+        /* Logo Section Styling Start*/
+
+
+        .logo-section h2 {
+          font-size: 32px;
+          padding: 0 2rem;
+        }
+      
+        .logos-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 15px;
+        }
+      
+        .logo-item {
+          width: 90%;
+        }
+      
+        .logo-item h6 {
+          margin-top: 5rem;
+          margin-left: 0;
+          font-size: 18px;
+          text-align: center;
+        }
+        /* Logo Section Styling End*/
+
+}
+
+/* Major  And Minor Page Styling End */
+/* Up coming Page Styling Start */
+/* ======= Mobile Responsive ======= */
+@media screen and (max-width: 768px) {
+  .up-pro-hero-heading {
+    font-size: 32px; /* Adjusted for mobile */
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .up-pro-hero-content {
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .up-pro-text-section p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px;
+  }
+
+  .up-pro-text-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .up-pro-hero::before,
+  .up-pro-hero::after {
+    display: none; /* Removed tree images on mobile */
+  }
+
+  .up-pro-hero-bottom-img-section {
+    display: none;
+  }
+  .up-pro-text-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .up-pro-text-section p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 140%;
+  }
+
+  .up-pro-text-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  /* Remove tree images on mobile */
+  .up-pro-hero::before,
+  .up-pro-hero::after {
+    display: none;
+  }
+  
+  .blog-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 2rem 1rem;
+  }
+
+  .bolg {
+    max-width: 100%;
+ 
+    height: 20rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+
+  .bolg h2 {
+    font-size: 18px;
+  }
+
+  .bolg p {
+    font-size: 14px;
+  }
+
+  .bolg span {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .up-pro-bolg-btns {
+   
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Remove tree images on mobile */
+  .bolg::before,
+  .bolg::after {
+    display: none;
+  }
+  .line{
+    display: none;
+  }
+.fq-top h2{
+font-size: 30px;
+line-height: 100%;
+}
+.fq-top p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+  .fq-bottom{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,10%);
+    gap: 0px;  
+    padding: 0px 0rem;
+  
+  }
+  .fq-bottom-item{
+    background: url(../img/up-pro-faq-bg.png) no-repeat center center/contain;
+    padding: 0px 3rem;
+    width: 100%;
+    min-height: 40px;
+    height: fit-content;
+  }
+  .fq-bottom-item h2{
+    font-size: 14px;
+    padding: 60px 0;
+    max-width: 100%;
+  }
+}
+
+/* Up coming Page Styling End */
